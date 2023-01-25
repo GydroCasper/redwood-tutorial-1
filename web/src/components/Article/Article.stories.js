@@ -7,7 +7,7 @@ const ARTICLE = {
 }
 
 export const full = () => {
-  return <Article article={ARTICLE} />
+  return <Article article={ARTICLE} summary={false}/>
 }
 
 export const summary = () => {

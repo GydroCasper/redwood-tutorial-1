@@ -19,5 +19,9 @@
   "prisma": {
     "seed": "yarn rw exec seed"
   },
-  "packageManager": "yarn@3.2.1"
+  "packageManager": "yarn@3.2.1",
+  "dependencies": {
+    "@redwoodjs/testing": "^3.8.0",
+    "@storybook/react": "^6.5.15"
+  }
 }
